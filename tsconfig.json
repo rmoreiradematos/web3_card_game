@@ -23,6 +23,5 @@
     "coverage",
     "**/*.test.ts",
     "**/*.spec.ts"
-  ],
-  "files": []
+  ]
 }
