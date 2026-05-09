@@ -1,0 +1,14 @@
+{
+  "name": "@chronos-echoes/game-logic",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Chronos Echoes — Shared game logic (simulation, rules)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  }
+}

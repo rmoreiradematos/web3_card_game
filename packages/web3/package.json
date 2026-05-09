@@ -1,0 +1,6 @@
+{
+  "name": "@chronos-echoes/web3",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Chronos Echoes — Smart contracts (Solidity/Hardhat/Foundry)"
+}
