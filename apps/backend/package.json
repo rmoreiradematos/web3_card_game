@@ -1,0 +1,6 @@
+{
+  "name": "@chronos-echoes/backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Chronos Echoes — API and off-chain services (Node.js)"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "@chronos-echoes/frontend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Chronos Echoes — Web application (React/Next.js)"
+}

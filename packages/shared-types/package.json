@@ -1,0 +1,14 @@
+{
+  "name": "@chronos-echoes/shared-types",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Chronos Echoes — TypeScript types shared between frontend and backend",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  }
+}
