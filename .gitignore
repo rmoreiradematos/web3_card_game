@@ -1,0 +1,6 @@
+
+# Web3 Auto-Commit Workflow artifacts
+.workflow.lock
+workflow.log
+tickets.db
+workflow.log.*
