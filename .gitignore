@@ -1,6 +1,67 @@
+# ─── Kiro ────────────────────────────────────────────────────────────────────
+.kiro/*
 
-# Web3 Auto-Commit Workflow artifacts
-.workflow.lock
-workflow.log
-tickets.db
-workflow.log.*
+# ─── Dependencies ─────────────────────────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+
+# ─── pnpm ─────────────────────────────────────────────────────────────────────
+# Keep pnpm-lock.yaml committed for reproducible installs
+# pnpm-lock.yaml
+
+# ─── Build outputs ────────────────────────────────────────────────────────────
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# ─── Next.js ──────────────────────────────────────────────────────────────────
+.next/
+.vercel/
+
+# ─── TypeScript ───────────────────────────────────────────────────────────────
+*.js.map
+*.d.ts.map
+
+# ─── Environment & secrets ────────────────────────────────────────────────────
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*
+!.env.example
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ─── OS / Editor ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ─── Testing & Coverage ───────────────────────────────────────────────────────
+coverage/
+.nyc_output/
+
+# ─── Hardhat / Foundry (Web3) ─────────────────────────────────────────────────
+packages/web3/artifacts/
+packages/web3/cache/
+packages/web3/out/
+packages/web3/typechain-types/
+
+# ─── Docker ───────────────────────────────────────────────────────────────────
+.docker/
+
+# ─── Misc ─────────────────────────────────────────────────────────────────────
+*.tgz
+.turbo/

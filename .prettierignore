@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Next.js
+.next/
+.vercel/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Hardhat / Foundry artifacts
+packages/web3/artifacts/
+packages/web3/cache/
+packages/web3/out/
+
+# Coverage reports
+coverage/
+
+# pnpm lock file (managed by pnpm)
+pnpm-lock.yaml
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
